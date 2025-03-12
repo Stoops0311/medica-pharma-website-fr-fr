@@ -19,7 +19,6 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
   { href: "/products", label: "Our Products" },
-  { href: "/presence", label: "Our Presence" },
   { href: "/contact", label: "Contact Us" }
 ];
 

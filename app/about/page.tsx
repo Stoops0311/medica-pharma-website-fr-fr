@@ -35,74 +35,60 @@ export default function AboutPage() {
           </div>
           <div className="prose max-w-none">
             <p className="text-lg mb-4">
-              Medica Pharma is a leading manufacturer and exporter of high-quality pharmaceuticals, 
-              Active Pharmaceutical Ingredients (APIs), and Ayurvedic medicines. With a strong 
-              commitment to quality and innovation, we have established ourselves as a trusted 
-              name in the global pharmaceutical industry.
-            </p>
-            <p className="text-lg mb-4">
-              Our state-of-the-art manufacturing facilities and dedicated research teams 
-              ensure that we deliver products that meet the highest standards of quality 
-              and efficacy. We take pride in our ability to adapt to the evolving needs 
-              of the healthcare sector while maintaining our core values of integrity, 
-              excellence, and customer satisfaction.
+              Medica Pharma is a vertically integrated pharmaceutical company manufacturing and distribution of high qulaity Pharmaceuticals APIs, Drug Intermediates, Finished Formulations, Surgicals & Othopaedics. Our products are formulated using high grade raw material as per the requirements of pharma and chemical industries.
             </p>
             <p className="text-lg">
-              At Medica Pharma, we believe that access to quality healthcare is a 
-              fundamental right, and we work tirelessly to make this a reality for 
-              people around the world.
+              We thrive to establish an end-to-end supply chain which can cater to the healthcare needs of people around the globe, thus have built a strong network of clientele in countries like India, UAE, United Kingdom, Pakistan, Bangladesh, USA etc.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Vision, Mission, and Commitment */}
+      {/* Medica Group */}
       <section className="py-16 px-4 sm:px-6 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Vision, Mission, and Commitment</h2>
+            <h2 className="text-3xl font-bold mb-4">Medica Group</h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
+            <p className="text-lg max-w-3xl mx-auto mb-10">
+              The Medica Group comprises three verticals, each focusing on a specific aspect of healthcare delivery:
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="shadow-md">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Our Vision</CardTitle>
+                <CardTitle className="text-xl text-primary">Medica Pharma</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg">
-                  To be a global leader in pharmaceutical excellence, providing innovative healthcare 
-                  solutions that enhance quality of life for people worldwide. We envision a world 
-                  where quality healthcare is accessible to all, and we strive to make this vision 
-                  a reality through our products and services.
+                <p>
+                  Our flagship division focuses on the manufacturing and export of high-quality 
+                  pharmaceuticals, APIs, and Ayurvedic medicines to markets worldwide.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="shadow-md">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Our Mission</CardTitle>
+                <CardTitle className="text-xl text-primary">Medica Export</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg">
-                  To develop, produce, and distribute pharmaceutical products of the highest quality 
-                  standards that meet the diverse needs of our global customers. We are committed to 
-                  continuous innovation, maintaining strict quality controls, and fostering strong 
-                  relationships with healthcare providers, patients, and business partners.
+                <p>
+                  Dedicated to expanding our global footprint, this division handles the export 
+                  and international distribution of our products, ensuring compliance with 
+                  diverse regulatory requirements.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="shadow-md">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary">Our Commitment</CardTitle>
+                <CardTitle className="text-xl text-primary">Medica Pharmacies</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg">
-                  We are committed to ethical practices, environmental sustainability, and continuous 
-                  innovation in all aspects of our operations. We believe in transparency, integrity, 
-                  and accountability in all our business dealings. Our commitment extends beyond 
-                  business success to include social responsibility and environmental stewardship.
+                <p>
+                  Our retail arm brings our high-quality products directly to consumers through 
+                  a network of modern pharmacies that prioritize customer care and health education.
                 </p>
               </CardContent>
             </Card>

@@ -27,7 +27,6 @@ export default function Footer() {
                 { href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
                 { href: "/products", label: "Our Products" },
-                { href: "/presence", label: "Our Presence" },
                 { href: "/contact", label: "Contact Us" }
               ].map((link) => (
                 <li key={link.href}>
@@ -67,7 +66,7 @@ export default function Footer() {
                 <strong>Email:</strong> info@medicapharma.in
               </p>
               <p>
-                House No.: 8/28, 1st floor, <br />
+                Block No.: 8/28, 1st floor, <br />
                 Near Kokan Mercantile Co-operative Bank, <br />
                 Mumbai, Dist- Thane, <br />
                 State- Maharashtra, India. (PIN code- 421301)

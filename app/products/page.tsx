@@ -43,7 +43,7 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/placeholder.com-1280x720.webp" 
+                  src="/product_images/API.jpg" 
                   alt="API Products" 
                   fill 
                   style={{ objectFit: "cover" }}
@@ -80,7 +80,7 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/placeholder.com-1280x720.webp" 
+                  src="/product_images/Drug intermediates.jpg" 
                   alt="Drug Intermediates" 
                   fill 
                   style={{ objectFit: "cover" }}
@@ -116,7 +116,7 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/placeholder.com-1280x720.webp" 
+                  src="/product_images/Finished Formulations.jpg" 
                   alt="Finished Formulations" 
                   fill 
                   style={{ objectFit: "cover" }}
@@ -150,7 +150,7 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/placeholder.com-1280x720.webp" 
+                  src="/product_images/Surgical & ortho.png" 
                   alt="Surgicals & Paramedicals" 
                   fill 
                   style={{ objectFit: "cover" }}
@@ -187,15 +187,14 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Social Connect */}
+      {/* Download Brochure */}
       <section className="py-16 px-4 sm:px-6 bg-gray-50">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Connect With Us</h2>
+            <h2 className="text-3xl font-bold mb-4">Product Brochure</h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-lg max-w-3xl mx-auto mb-10">
-              Looking for specific products or have questions about our offerings? 
-              Our team is ready to help you find the right pharmaceutical solutions for your needs.
+              Download our comprehensive product catalog to explore our full range of pharmaceutical offerings.
             </p>
           </div>
           
@@ -204,30 +203,35 @@ export default function ProductsPage() {
               <CardContent className="p-6">
                 <div className="text-center">
                   <Image 
-                    src="/placeholder.com-1280x720.webp" 
-                    alt="Social Connect" 
-                    width={600}
-                    height={400}
-                    className="rounded-md mb-6"
+                    src="/Logo.webp" 
+                    alt="Medica Pharma Logo" 
+                    width={120}
+                    height={120}
+                    className="mx-auto mb-6"
                   />
-                  <p className="text-lg mb-4">
-                    Connect with our product specialists to discuss your specific requirements, 
-                    bulk orders, customization options, or any questions about our pharmaceutical products.
+                  <p className="text-lg mb-6">
+                    Our product brochure contains detailed information about our pharmaceutical products, 
+                    including specifications, applications, and packaging options.
                   </p>
-                  <div className="flex justify-center gap-4 mt-6">
-                    <a 
-                      href="mailto:info@medicapharma.in" 
-                      className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md transition-colors"
-                    >
-                      Email Us
-                    </a>
-                    <a 
-                      href="tel:+919167923386" 
-                      className="bg-white border border-primary text-primary hover:bg-gray-50 px-6 py-3 rounded-md transition-colors"
-                    >
-                      Call Us
-                    </a>
-                  </div>
+                  <Link href="/Medica_Export_Profile.pdf" target="_blank" download>
+                    <Button className="bg-primary hover:bg-primary/90 text-white flex items-center gap-2 mx-auto">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                        />
+                      </svg>
+                      Download Product Brochure
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>

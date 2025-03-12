@@ -44,7 +44,7 @@ export default function ContactPage() {
                   </CardHeader>
                   <CardContent>
                     <address className="not-italic">
-                      <p className="mb-1">House No.: 8/28, 1st floor,</p>
+                      <p className="mb-1">Block No.: 8/28, 1st floor,</p>
                       <p className="mb-1">Near Kokan Mercantile Co-operative Bank,</p>
                       <p className="mb-1">Mumbai, Dist- Thane,</p>
                       <p>State- Maharashtra, India. (PIN code- 421301)</p>
@@ -111,25 +111,21 @@ export default function ContactPage() {
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div className="space-y-2">
-                        <Label htmlFor="name">Name</Label>
+                        <Label htmlFor="name">Client Name</Label>
                         <Input id="name" placeholder="Your Name" />
                       </div>
                       <div className="space-y-2">
-                        <Label htmlFor="email">Email</Label>
+                        <Label htmlFor="email">Client Email</Label>
                         <Input id="email" type="email" placeholder="Your Email" />
                       </div>
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="phone">Phone Number</Label>
+                      <Label htmlFor="phone">Client No</Label>
                       <Input id="phone" placeholder="Your Phone Number" />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="subject">Subject</Label>
-                      <Input id="subject" placeholder="Subject of your message" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="message">Message</Label>
-                      <Textarea id="message" placeholder="Your Message" rows={6} />
+                      <Label htmlFor="requirement">Requirement Description</Label>
+                      <Textarea id="requirement" placeholder="Describe your requirements" rows={6} />
                     </div>
                     <Button className="w-full bg-primary hover:bg-primary/90 text-white">
                       Submit Message

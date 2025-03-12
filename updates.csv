@@ -1,0 +1,27 @@
+Page ,Changes,Relevant details,,,
+Home,Add image in the bacgground of tagline,/home/stoops/Medica Pharma Website/medica-pharma/F-BYL-how-to-build-generational-wealth-hero (1).jpg,,We Domain,http://impex.medicapharma.in/
+Home,Update About us,"Medica Pharma is a leading exporter of high qulaity Pharmaceuticals APIs, Drug Intermediates, Finished Formulations, Surgicals & Othopaedics. With a focus on excellence and innovation, we are committed to improving global healthcare standards.",,,
+Home,Update Global Presence,"Our global footprint extends across APAC, EMEA, North America & Latin America with clients based in countries like India, UAE, United Kingdom, Pakistan, Bangladesh, USA etc. Reflecting our commitment to making quality healthcare accessible worldwide.
+
+- Corporate Clients: We work with large healthcare systems, hospital chains, and pharmaceutical distributors.
+- Government Institutions: We participate in government tenders and supply essential medicines to public healthcare systems.
+- Global Conglomerates: We collaborate with multinational pharmaceutical companies through licensing agreements and contract manufacturing.",,,
+About Us,Update Page structure,"1) Company Overview
+2) Medica Group
+3) Our Team
+4) Our Ethics
+
+Remove sectio on ""Our Vision, Mission, and Commitment""",,,
+About Us,Update Company overview,"Medica Pharma is a vertically integrated pharmaceutical company manufacturing and distribution of high qulaity Pharmaceuticals APIs, Drug Intermediates, Finished Formulations, Surgicals & Othopaedics. Our products are formulated using high grade raw material as per the requirements of pharma and chemical industries.
+
+We thrive to establish an end-to-end supply chain which can cater to the healthcare needs of people around the globe, thus have built a strong network of clientele in countries like India, UAE, United Kingdom, Pakistan, Bangladesh, USA etc.",,,
+Our Products,Add images for categories,/home/stoops/Medica Pharma Website/medica-pharma/product_images,,,
+Our Products,Add downloadable brochure,/home/stoops/Medica Pharma Website/medica-pharma/Medica_Export_Profile.pdf,,,
+Our Products,"Remove ""Connect with us section""",,,,
+Our Presence,Remove this page from website,,,,
+Contact Us,Update Lead form,"Client Name, Client Email, Client No, Requirement description",,,
+Footer of website,Update office address,"Block No.: 8/28, 1st floor,
+Near Kokan Mercantile Co-operative Bank,
+Mumbai, Dist- Thane,
+State- Maharashtra, India. (PIN code- 421301)",,,
+All Page,Add a floating whatsapp button on the side of the page that leads to opening up a chat with this number +91 91679 23387,,,,

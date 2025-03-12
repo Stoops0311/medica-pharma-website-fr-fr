@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative h-[600px] w-full flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/placeholder.com-1280x720.webp" 
+            src="/F-BYL-how-to-build-generational-wealth-hero (1).jpg" 
             alt="Hero Background" 
             fill 
             style={{ objectFit: "cover", objectPosition: "center" }}
@@ -22,6 +22,11 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
             World-class pharmaceuticals for a healthier tomorrow
           </h1>
+          <p className="text-xl text-white mb-6">
+            <a href="http://impex.medicapharma.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              http://impex.medicapharma.in/
+            </a>
+          </p>
           <Link href="/products">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
               Explore Our Products
@@ -37,8 +42,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">About Us</h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-lg max-w-3xl mx-auto">
-              Medica Pharma is a leading manufacturer and exporter of high-quality pharmaceuticals, APIs, and Ayurvedic medicines. 
-              With a focus on excellence and innovation, we are committed to improving global healthcare standards.
+              Medica Pharma is a leading exporter of high qulaity Pharmaceuticals APIs, Drug Intermediates, Finished Formulations, Surgicals & Othopaedics. With a focus on excellence and innovation, we are committed to improving global healthcare standards.
             </p>
             <div className="mt-8">
               <Link href="/about">
@@ -159,8 +163,15 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">Our Global Presence</h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-lg max-w-3xl mx-auto">
-              Medica Pharma has established a strong international presence across multiple continents, serving diverse markets with high-quality pharmaceutical products.
+              Our global footprint extends across APAC, EMEA, North America & Latin America with clients based in countries like India, UAE, United Kingdom, Pakistan, Bangladesh, USA etc. Reflecting our commitment to making quality healthcare accessible worldwide.
             </p>
+            <div className="text-lg max-w-3xl mx-auto mt-6">
+              <ul className="list-disc pl-5 text-left space-y-2">
+                <li><strong>Corporate Clients:</strong> We work with large healthcare systems, hospital chains, and pharmaceutical distributors.</li>
+                <li><strong>Government Institutions:</strong> We participate in government tenders and supply essential medicines to public healthcare systems.</li>
+                <li><strong>Global Conglomerates:</strong> We collaborate with multinational pharmaceutical companies through licensing agreements and contract manufacturing.</li>
+              </ul>
+            </div>
           </div>
 
           <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
