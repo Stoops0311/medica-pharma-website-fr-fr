@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata = {
@@ -46,6 +48,8 @@ export default function ProductsPage() {
                   src="/product_images/API.jpg" 
                   alt="API Products" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -80,9 +84,10 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/product_images/Drug intermediates.jpg" 
+                  src="/product_images/Drug%20intermediates.jpg" 
                   alt="Drug Intermediates" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -116,9 +121,10 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/product_images/Finished Formulations.jpg" 
+                  src="/product_images/Finished%20Formulations.jpg" 
                   alt="Finished Formulations" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -150,9 +156,10 @@ export default function ProductsPage() {
             <Card className="shadow-lg overflow-hidden">
               <div className="relative h-60 w-full">
                 <Image 
-                  src="/product_images/Surgical & ortho.png" 
+                  src="/product_images/Surgical%20%26%20ortho.png" 
                   alt="Surgicals & Paramedicals" 
                   fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>

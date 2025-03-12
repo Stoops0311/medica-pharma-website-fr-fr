@@ -7,33 +7,26 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[600px] w-full flex items-center justify-center">
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/F-BYL-how-to-build-generational-wealth-hero (1).jpg" 
-            alt="Hero Background" 
-            fill 
-            style={{ objectFit: "cover", objectPosition: "center" }}
-            priority
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        </div>
-        <div className="z-10 text-center px-4 sm:px-6">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
+      <div 
+        className="w-full h-[600px] flex items-center justify-center"
+        style={{
+          backgroundImage: "url('/F-BYL-how-to-build-generational-wealth-hero (1).jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          position: "relative"
+        }}
+      >
+        <div className="text-center px-4 sm:px-6 z-10">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
             World-class pharmaceuticals for a healthier tomorrow
           </h1>
-          <p className="text-xl text-white mb-6">
-            <a href="http://impex.medicapharma.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">
-              http://impex.medicapharma.in/
-            </a>
-          </p>
           <Link href="/products">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
               Explore Our Products
             </Button>
           </Link>
         </div>
-      </section>
+      </div>
 
       {/* About Us Section */}
       <section className="py-16 px-4 sm:px-6 bg-white">
@@ -175,18 +168,20 @@ export default function Home() {
           </div>
 
           <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-            <Image 
-              src="/placeholder.com-1280x720.webp" 
-              alt="World Map" 
-              fill 
-              style={{ objectFit: "cover" }}
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Link href="/presence">
-                <Button className="bg-primary hover:bg-primary/90 text-white">
-                  Explore Our Global Reach
-                </Button>
-              </Link>
+            <div style={{
+              width: "100%",
+              height: "100%",
+              backgroundImage: "url('/placeholder.com-1280x720.webp')",
+              backgroundSize: "cover",
+              backgroundPosition: "center"
+            }}>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <Link href="/contact">
+                  <Button className="bg-primary hover:bg-primary/90 text-white">
+                    Contact Us
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

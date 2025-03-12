@@ -14,21 +14,24 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
-      <section className="relative h-[300px] w-full flex items-center justify-center">
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/placeholder.com-1280x720.webp" 
-            alt="Contact Us Background" 
-            fill 
-            style={{ objectFit: "cover", objectPosition: "center" }}
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+      <div 
+        className="w-full h-[300px] flex items-center justify-center"
+        style={{
+          backgroundImage: "url('/placeholder.com-1280x720.webp')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          position: "relative"
+        }}
+      >
+        <div className="text-center px-4 sm:px-6 z-10">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
+            Get In Touch With Us!
+          </h1>
+          <p className="text-xl text-white" style={{textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)"}}>
+            We'd love to hear from you
+          </p>
         </div>
-        <div className="z-10 text-center px-4 sm:px-6">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">Get In Touch With Us!</h1>
-          <p className="text-xl text-white">We'd love to hear from you</p>
-        </div>
-      </section>
+      </div>
 
       {/* Contact Information and Form */}
       <section className="py-16 px-4 sm:px-6 bg-white">
@@ -149,15 +152,14 @@ export default function ContactPage() {
               and easily accessible.
             </p>
           </div>
-          <div className="h-[400px] w-full rounded-lg overflow-hidden">
-            <Image 
-              src="/placeholder.com-1280x720.webp" 
-              alt="Map showing Medica Pharma's location" 
-              fill 
-              style={{ objectFit: "cover" }}
-              className="relative"
-            />
-          </div>
+          <div 
+            className="h-[400px] w-full rounded-lg overflow-hidden"
+            style={{
+              backgroundImage: "url('/placeholder.com-1280x720.webp')",
+              backgroundSize: "cover",
+              backgroundPosition: "center"
+            }}
+          ></div>
         </div>
       </section>
     </div>
