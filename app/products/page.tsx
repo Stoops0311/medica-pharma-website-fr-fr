@@ -12,18 +12,23 @@ export default function ProductsPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
-      <section className="relative h-[300px] w-full flex items-center justify-center">
-        <div className="absolute inset-0 z-0">
+      <section className="relative h-[250px] sm:h-[300px] w-full flex items-center justify-center">
+        <div className="absolute inset-0 z-0 bg-black/50">
           <Image 
             src="/placeholder.com-1280x720.webp" 
             alt="Products Background" 
             fill 
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            priority
+            sizes="100vw"
+            style={{ 
+              objectFit: "cover", 
+              objectPosition: "center",
+              opacity: 0.7
+            }}
           />
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
-        <div className="z-10 text-center px-4 sm:px-6">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">Our Products</h1>
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">Our Products</h1>
           <p className="text-xl text-white">Explore our wide range of pharmaceutical products</p>
         </div>
       </section>
@@ -43,7 +48,7 @@ export default function ProductsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {/* API Section */}
             <Card className="shadow-lg overflow-hidden">
-              <div className="relative h-60 w-full">
+              <div className="relative h-48 sm:h-60 w-full">
                 <Image 
                   src="/product_images/API.jpg" 
                   alt="API Products" 
@@ -82,7 +87,7 @@ export default function ProductsPage() {
 
             {/* Drug Intermediates Section */}
             <Card className="shadow-lg overflow-hidden">
-              <div className="relative h-60 w-full">
+              <div className="relative h-48 sm:h-60 w-full">
                 <Image 
                   src="/product_images/Drug%20intermediates.jpg" 
                   alt="Drug Intermediates" 
@@ -119,7 +124,7 @@ export default function ProductsPage() {
 
             {/* Finished Formulations Section */}
             <Card className="shadow-lg overflow-hidden">
-              <div className="relative h-60 w-full">
+              <div className="relative h-48 sm:h-60 w-full">
                 <Image 
                   src="/product_images/Finished%20Formulations.jpg" 
                   alt="Finished Formulations" 
@@ -154,7 +159,7 @@ export default function ProductsPage() {
 
             {/* Surgicals & Paramedicals Section */}
             <Card className="shadow-lg overflow-hidden">
-              <div className="relative h-60 w-full">
+              <div className="relative h-48 sm:h-60 w-full">
                 <Image 
                   src="/product_images/Surgical%20%26%20ortho.png" 
                   alt="Surgicals & Paramedicals" 

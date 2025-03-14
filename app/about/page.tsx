@@ -10,18 +10,23 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
-      <section className="relative h-[300px] w-full flex items-center justify-center">
-        <div className="absolute inset-0 z-0">
+      <section className="relative h-[250px] sm:h-[300px] w-full flex items-center justify-center">
+        <div className="absolute inset-0 z-0 bg-black/50">
           <Image 
             src="/placeholder.com-1280x720.webp" 
             alt="About Us Background" 
             fill 
-            style={{ objectFit: "cover", objectPosition: "center" }}
+            priority
+            sizes="100vw"
+            style={{ 
+              objectFit: "cover", 
+              objectPosition: "center",
+              opacity: 0.7
+            }}
           />
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
         </div>
-        <div className="z-10 text-center px-4 sm:px-6">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2">About Us</h1>
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">About Us</h1>
           <p className="text-xl text-white">Learn more about Medica Pharma and our journey</p>
         </div>
       </section>

@@ -6,17 +6,20 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <div 
-        className="w-full h-[600px] flex items-center justify-center"
-        style={{
-          backgroundImage: "url('/F-BYL-how-to-build-generational-wealth-hero (1).jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          position: "relative"
-        }}
-      >
-        <div className="text-center px-4 sm:px-6 z-10">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
+      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] flex items-center justify-center">
+        {/* Overlay for better text readability */}
+        <div 
+          className="absolute inset-0 z-0 bg-black/40" 
+          style={{
+            backgroundImage: "url('/F-BYL-how-to-build-generational-wealth-hero (1).jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundBlendMode: "overlay"
+          }}
+        />
+        
+        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
             World-class pharmaceuticals for a healthier tomorrow
           </h1>
           <Link href="/products">
@@ -166,21 +169,19 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative h-[400px] w-full rounded-lg overflow-hidden">
-            <div style={{
-              width: "100%",
-              height: "100%",
+          <div className="relative h-[300px] md:h-[400px] w-full rounded-lg overflow-hidden mt-8">
+            <div className="absolute inset-0 bg-black/20" style={{
               backgroundImage: "url('/placeholder.com-1280x720.webp')",
               backgroundSize: "cover",
-              backgroundPosition: "center"
-            }}>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Link href="/contact">
-                  <Button className="bg-primary hover:bg-primary/90 text-white">
-                    Contact Us
-                  </Button>
-                </Link>
-              </div>
+              backgroundPosition: "center",
+              backgroundBlendMode: "overlay"
+            }} />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Link href="/contact">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                  Contact Us
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

@@ -13,17 +13,20 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
-      <div 
-        className="w-full h-[300px] flex items-center justify-center"
-        style={{
-          backgroundImage: "url('/placeholder.com-1280x720.webp')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          position: "relative"
-        }}
-      >
-        <div className="text-center px-4 sm:px-6 z-10">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-2" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
+      <div className="relative w-full h-[250px] sm:h-[300px] flex items-center justify-center">
+        {/* Overlay for better text readability */}
+        <div 
+          className="absolute inset-0 z-0 bg-black/50" 
+          style={{
+            backgroundImage: "url('/placeholder.com-1280x720.webp')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundBlendMode: "overlay"
+          }}
+        />
+        
+        <div className="relative z-10 text-center px-4 sm:px-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>
             Get In Touch With Us!
           </h1>
           <p className="text-xl text-white" style={{textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)"}}>
@@ -151,14 +154,16 @@ export default function ContactPage() {
               and easily accessible.
             </p>
           </div>
-          <div 
-            className="h-[400px] w-full rounded-lg overflow-hidden"
-            style={{
-              backgroundImage: "url('/placeholder.com-1280x720.webp')",
-              backgroundSize: "cover",
-              backgroundPosition: "center"
-            }}
-          ></div>
+          <div className="relative h-[300px] sm:h-[400px] w-full rounded-lg overflow-hidden">
+            <div 
+              className="absolute inset-0 z-0" 
+              style={{
+                backgroundImage: "url('/placeholder.com-1280x720.webp')",
+                backgroundSize: "cover",
+                backgroundPosition: "center"
+              }}
+            />
+          </div>
         </div>
       </section>
     </div>
