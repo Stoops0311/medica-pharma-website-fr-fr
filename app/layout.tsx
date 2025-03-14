@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";
 import WhatsAppButton from "@/components/ui/whatsapp-button";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,6 +49,7 @@ export default function RootLayout({
           </main>
           <Footer />
           <WhatsAppButton />
+          <Analytics />
         </div>
       </body>
     </html>
