@@ -13,23 +13,18 @@ export default function ProductsPage() {
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
       <section className="relative h-[250px] sm:h-[300px] w-full flex items-center justify-center">
-        <div className="absolute inset-0 z-0 bg-black/50">
-          <Image 
-            src="/Assets-And-Images/OurProducts.jpg" 
-            alt="Products Background" 
-            fill 
-            priority
-            sizes="100vw"
-            style={{ 
-              objectFit: "cover", 
-              objectPosition: "center",
-              opacity: 0.7
-            }}
-          />
-        </div>
+        <div 
+          className="absolute inset-0 z-0 bg-black/50" 
+          style={{
+            backgroundImage: "url('/Assets-And-Images/OurProducts.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundBlendMode: "overlay"
+          }}
+        />
         <div className="relative z-10 text-center px-4 sm:px-6 max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2">Our Products</h1>
-          <p className="text-xl text-white">Explore our wide range of pharmaceutical products</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2" style={{textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"}}>Our Products</h1>
+          <p className="text-xl text-white" style={{textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)"}}>Explore our wide range of pharmaceutical products</p>
         </div>
       </section>
 
