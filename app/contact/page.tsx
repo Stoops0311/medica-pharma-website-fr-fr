@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -28,7 +27,7 @@ export default function ContactPage() {
             Get In Touch With Us!
           </h1>
           <p className="text-xl text-white" style={{textShadow: "1px 1px 2px rgba(0, 0, 0, 0.8)"}}>
-            We'd love to hear from you
+            We&apos;d love to hear from you
           </p>
         </div>
       </div>
@@ -148,7 +147,7 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold mb-4">Our Location</h2>
             <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-lg max-w-3xl mx-auto mb-10">
-              Find us at our office in Mumbai, Maharashtra. We're conveniently located 
+              Find us at our office in Mumbai, Maharashtra. We&apos;re conveniently located 
               and easily accessible.
             </p>
           </div>

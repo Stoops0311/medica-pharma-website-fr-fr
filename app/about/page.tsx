@@ -62,7 +62,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Our flagship division focuses on the manufacturing and export of high-quality 
+                  Our flagship division focuses on the manufacturing and distribution of high-quality 
                   pharmaceuticals, APIs, and Ayurvedic medicines to markets worldwide.
                 </p>
               </CardContent>
@@ -135,58 +135,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Medica Group */}
-      <section className="py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Medica Group</h2>
-            <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-            <p className="text-lg max-w-3xl mx-auto mb-10">
-              The Medica Group comprises three verticals, each focusing on a specific aspect of healthcare delivery:
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="shadow-md">
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Medica Pharma</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  Our flagship division focuses on the manufacturing and export of high-quality 
-                  pharmaceuticals, APIs, and Ayurvedic medicines to markets worldwide.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-md">
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Medica Export</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  Dedicated to expanding our global footprint, this division handles the export 
-                  and international distribution of our products, ensuring compliance with 
-                  diverse regulatory requirements.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-md">
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">Medica Pharmacies</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  Our retail arm brings our high-quality products directly to consumers through 
-                  a network of modern pharmacies that prioritize customer care and health education.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Our Team */}
       <section className="py-16 px-4 sm:px-6 bg-white">
         <div className="container mx-auto max-w-4xl">
@@ -196,7 +144,7 @@ export default function AboutPage() {
           </div>
           <div className="prose max-w-none">
             <p className="text-lg mb-6">
-              Behind Medica Pharma's success is a team of talented professionals who bring a wealth 
+              Behind Medica Pharma&apos;s success is a team of talented professionals who bring a wealth 
               of experience and expertise to our operations. Our leadership team comprises 
               industry veterans with backgrounds in pharmaceutical research, manufacturing, 
               quality assurance, regulatory affairs, and business management.
@@ -214,47 +162,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Clients */}
-      <section className="py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Clients</h2>
-            <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          </div>
-          <div className="prose max-w-none">
-            <p className="text-lg mb-6">
-              Medica Pharma serves a diverse client base that spans across different sectors and regions:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 mb-6">
-              <li className="text-lg">
-                <strong>Individual Consumers:</strong> Through our pharmacy network, we serve individuals 
-                seeking quality healthcare products.
-              </li>
-              <li className="text-lg">
-                <strong>Small and Medium Businesses:</strong> We partner with local pharmacies, 
-                clinics, and healthcare providers to supply them with essential pharmaceuticals.
-              </li>
-              <li className="text-lg">
-                <strong>Corporate Clients:</strong> We work with large healthcare systems, 
-                hospital chains, and pharmaceutical distributors.
-              </li>
-              <li className="text-lg">
-                <strong>Government Institutions:</strong> We participate in government tenders 
-                and supply essential medicines to public healthcare systems.
-              </li>
-              <li className="text-lg">
-                <strong>Global Conglomerates:</strong> We collaborate with multinational 
-                pharmaceutical companies through licensing agreements and contract manufacturing.
-              </li>
-            </ul>
-            <p className="text-lg">
-              Our global footprint extends across South Asia, South East Asia, Middle East, Africa, 
-              Europe, Latin America, and Far East Asia, reflecting our commitment to making 
-              quality healthcare accessible worldwide.
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

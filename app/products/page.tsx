@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const metadata = {
   title: "Our Products | Medica Pharma",
@@ -143,7 +143,7 @@ export default function ProductsPage() {
                   <li><strong>Allopathic Medicines:</strong> Modern pharmaceuticals across therapeutic areas</li>
                   <li><strong>Ayurvedic Medicines:</strong> Traditional herbal preparations based on ancient Indian medicinal system</li>
                   <li><strong>Veterinary Medicines:</strong> Pharmaceuticals specifically formulated for animal health</li>
-                  <li><strong>Homeopathic Medicines:</strong> Alternative medical products based on the principle of "like cures like"</li>
+                  <li><strong>Homeopathic Medicines:</strong> Alternative medical products based on the principle of &quot;like cures like&quot;</li>
                 </ul>
                 <p>
                   All our formulations are manufactured under strict quality controls and 
