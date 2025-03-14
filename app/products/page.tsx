@@ -15,7 +15,7 @@ export default function ProductsPage() {
       <section className="relative h-[250px] sm:h-[300px] w-full flex items-center justify-center">
         <div className="absolute inset-0 z-0 bg-black/50">
           <Image 
-            src="/placeholder.com-1280x720.webp" 
+            src="/Assets-And-Images/OurProducts.jpg" 
             alt="Products Background" 
             fill 
             priority

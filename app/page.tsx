@@ -168,22 +168,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-
-          <div className="relative h-[300px] md:h-[400px] w-full rounded-lg overflow-hidden mt-8">
-            <div className="absolute inset-0 bg-black/20" style={{
-              backgroundImage: "url('/placeholder.com-1280x720.webp')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundBlendMode: "overlay"
-            }} />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <Link href="/contact">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-                  Contact Us
-                </Button>
-              </Link>
-            </div>
-          </div>
         </div>
       </section>
     </div>

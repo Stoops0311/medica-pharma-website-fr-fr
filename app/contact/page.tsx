@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div 
           className="absolute inset-0 z-0 bg-black/50" 
           style={{
-            backgroundImage: "url('/placeholder.com-1280x720.webp')",
+            backgroundImage: "url('/Assets-And-Images/ContactUS.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundBlendMode: "overlay"
@@ -143,29 +143,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16 px-4 sm:px-6 bg-gray-50">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Our Location</h2>
-            <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-            <p className="text-lg max-w-3xl mx-auto mb-10">
-              Find us at our office in Mumbai, Maharashtra. We&apos;re conveniently located 
-              and easily accessible.
-            </p>
-          </div>
-          <div className="relative h-[300px] sm:h-[400px] w-full rounded-lg overflow-hidden">
-            <div 
-              className="absolute inset-0 z-0" 
-              style={{
-                backgroundImage: "url('/placeholder.com-1280x720.webp')",
-                backgroundSize: "cover",
-                backgroundPosition: "center"
-              }}
-            />
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
